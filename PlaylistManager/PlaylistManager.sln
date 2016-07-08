@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlaylistManager.Api", "PlaylistManager.Api\PlaylistManager.Api.csproj", "{E3589191-B018-400E-AAC2-C158A979D0C2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlaylistManager.Client", "PlaylistManager.Client\PlaylistManager.Client.csproj", "{BF0B22A7-5788-4847-B047-752B047E8FEE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Plugins", "Plugins", "{49EF3C30-2715-443F-ADB9-FABD39AE911C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlaylistManager.Plugin.Google", "PlaylistManager.Plugin.Google\PlaylistManager.Plugin.Google.csproj", "{AA1FEF98-2C88-49CC-A894-973E63269E36}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E3589191-B018-400E-AAC2-C158A979D0C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3589191-B018-400E-AAC2-C158A979D0C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3589191-B018-400E-AAC2-C158A979D0C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3589191-B018-400E-AAC2-C158A979D0C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF0B22A7-5788-4847-B047-752B047E8FEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF0B22A7-5788-4847-B047-752B047E8FEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF0B22A7-5788-4847-B047-752B047E8FEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF0B22A7-5788-4847-B047-752B047E8FEE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA1FEF98-2C88-49CC-A894-973E63269E36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA1FEF98-2C88-49CC-A894-973E63269E36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA1FEF98-2C88-49CC-A894-973E63269E36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA1FEF98-2C88-49CC-A894-973E63269E36}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AA1FEF98-2C88-49CC-A894-973E63269E36} = {49EF3C30-2715-443F-ADB9-FABD39AE911C}
+	EndGlobalSection
+EndGlobal
