@@ -1,0 +1,2 @@
+Google Manager:<SHA256 HASH>
+Spotify Manager:<SHA256 HASH>
